@@ -116,14 +116,16 @@ nav div#chamada a#cadastro {
 FORMATACOES ARTICLE
 */
 
+div#container-principal {
+    margin-top: 120px;
+}
+
 article {
-    position: absolute;
     z-index: -1;
     font-family: Roboto-light;
     float: left;
     box-sizing: border-box;
     padding: 10px;
-    margin-top: 120px;
     width: 67%;
 }
 
@@ -161,7 +163,23 @@ aside {
     float: right;
     box-sizing: border-box;
     padding: 10px;
-    margin-top: 120px;
     width: 30%;
     border: 1px solid blue;
+}
+
+/*
+FORMATACOES RODAPE
+*/
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #00006d;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
