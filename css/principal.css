@@ -83,8 +83,9 @@ nav li a {
 }
 
 nav li a:hover {
+    color: #0000ff;
     border-bottom: 1px solid #00006d;
-    transition: text-decoration 1s;
+    transition: color 1s;
 }
 
 nav div#chamada ul {
@@ -94,6 +95,10 @@ nav div#chamada ul {
 nav div#chamada li a {
     border-radius: 10px;
     padding: 10px 25px;
+}
+
+nav div#chamada li a:hover {
+    border: none;
 }
 
 nav div#chamada a#login {
@@ -131,6 +136,7 @@ section {
 
 section a:hover {
     opacity: 0.8;
+    transition: opacity 1s;
 }
 
 section img {
