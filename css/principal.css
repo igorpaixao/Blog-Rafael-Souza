@@ -1,0 +1,146 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/*
+FORMATACOES HEADER
+*/
+
+header {
+    margin: 0;
+    width: 100%;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    border-bottom: 3px solid rgba(211, 211, 211, 0.712);
+}
+
+header a#logo {
+    display: block;
+    width: 100px;
+    height: 70px;
+    margin-right: 10px;
+    background-image: url("/images/logo_transparente.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    text-indent: -20000px;
+    float: left;
+}
+
+/*
+FORMATACOES NAVEGACAO
+*/
+
+nav {
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    float: left;
+    box-sizing: border-box;
+    margin: 15px 20px;
+}
+
+nav li {
+    float: left;
+    margin: 0 10px;
+}
+
+nav li a {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border-radius: 10px;
+    color: #00006d;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+nav div#chamada ul {
+    float: right;
+}
+
+nav div#chamada li a {
+    padding: 10px 25px;
+}
+
+nav div#chamada a#login {
+    background-color: #000039;
+    color: #fff;
+}
+
+nav div#chamada a#cadastro {
+    background-color: rgb(238, 133, 5);
+    color: #fff;
+}
+
+/*
+FORMATACOES ARTICLE
+*/
+
+article {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 120px;
+    width: 67%;
+}
+
+/*
+FORMATACOES SECTION
+*/
+
+section {
+    box-shadow: 0px 0px 0.8px 0px #000;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+section a:hover {
+    opacity: 0.8;
+}
+
+section img {
+    width: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+section h2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+FORMATACOES ASIDE
+*/
+
+aside {
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 120px;
+    width: 30%;
+    border: 1px solid blue;
+}
