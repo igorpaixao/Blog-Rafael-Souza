@@ -27,6 +27,14 @@ ul {
     clear: both;
 }
 
+h2 {
+    font-family: Roboto-bold;
+}
+
+body {
+    font-family: Roboto-light;
+}
+
 /*
 FORMATACOES HEADER
 */
@@ -85,8 +93,8 @@ nav li a {
 
 nav li a:hover {
     color: #0000ff;
-    border-bottom: 1px solid #00006d;
     transition: color 1s;
+    border-bottom: 1px solid #00006d;
 }
 
 nav div#chamada ul {
@@ -100,6 +108,7 @@ nav div#chamada li a {
 
 nav div#chamada li a:hover {
     border: none;
+    text-decoration: underline;
 }
 
 nav div#chamada a#login {
@@ -139,18 +148,18 @@ section {
     margin-bottom: 15px;
 }
 
-section a:hover {
+article section a:hover {
     opacity: 0.8;
     transition: opacity 1s;
 }
 
-section img {
+article section img {
     width: 120px;
     float: left;
     margin-right: 20px;
 }
 
-section h2 {
+article section h2 {
     padding-top: 10px;
     margin-bottom: 10px;
 }
@@ -160,11 +169,61 @@ FORMATACOES ASIDE
 */
 
 aside {
+    font-family: Roboto-light;
     float: right;
     box-sizing: border-box;
     padding: 10px;
     width: 30%;
-    border: 1px solid blue;
+}
+
+aside h2 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+aside #sobre {
+    text-align: center;
+}
+
+aside #sobre img {
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+aside input[type="text"] {
+    height: 29.5px;
+    width: 70%;
+    margin: 0;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: none;
+    font-family: Roboto-light;
+    font-size: 1em;
+}
+
+aside input[type="submit"] {
+    height: 34px;
+    margin-left: -6px;
+    border: 1px solid rgb(218, 218, 218);
+    background-color: rgb(238, 133, 5);
+    color: #fff;
+    border-radius: none;
+    width: 20%;
+}
+
+aside input[type="submit"]:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+aside a {
+    display: block;
+    margin-bottom: 10px;
+    color: #00006d;
+}
+
+aside a:hover {
+    text-decoration: underline;
 }
 
 /*
