@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 @font-face {
     font-family: Roboto-light;
     src: url("/roboto/AnyConv.com__Roboto-Light.woff");
