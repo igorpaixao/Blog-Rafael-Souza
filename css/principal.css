@@ -202,8 +202,7 @@ aside input[type="text"] {
 }
 
 aside input[type="submit"] {
-    height: 34px;
-    margin-left: -6px;
+    height: 35px;
     border: 1px solid rgb(218, 218, 218);
     background-color: rgb(238, 133, 5);
     color: #fff;
@@ -213,6 +212,7 @@ aside input[type="submit"] {
 
 aside input[type="submit"]:hover {
     text-decoration: underline;
+    background-color: rgb(255, 140, 0);
     cursor: pointer;
 }
 
@@ -220,6 +220,7 @@ aside a {
     display: block;
     margin-bottom: 10px;
     color: #00006d;
+    width: 50%;
 }
 
 aside a:hover {
