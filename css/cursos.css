@@ -1,0 +1,41 @@
+article {
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+article section {
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+    box-shadow: 0px 0px 2px 0.5px gray;
+}
+
+article section img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+article section h3 {
+    font-family: Roboto-bold;
+    margin-bottom: 5px;
+}
+
+article section span {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+
+article section p {
+    text-align: justify;
+}
+
+article section input[type="button"] {
+    margin-top: 30px;
+    background-color: #00006d;
+    color: #fff;
+    padding: 5px 10px;
+    float: right;
+    cursor: pointer;
+}
