@@ -71,6 +71,7 @@ FORMATACOES NAVEGACAO
 nav {
     width: 80%;
     margin: auto;
+    box-sizing: border-box;
 }
 
 nav ul {
@@ -242,4 +243,12 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/*
+MARCACAO DA PAGINA ATUAL
+*/
+
+#index .index, #cursos .cursos, #contato .contato, #sobre .sobre, #treinamento .treinamento {
+    color: rgb(238, 133, 5);
 }
