@@ -1,0 +1,100 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a {
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+article {
+    /*background: linear-gradient(to top, #0000a3, #0000ff) no-repeat fixed left top;*/
+    width: 100%;
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+section#imagem-chamada {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+section#imagem-chamada img {
+    width: 90%;
+    border-radius: 100%;
+}
+
+section#texto-chamada {
+    float: right;
+    width: 40%;
+    margin-right: 60px;
+    text-align: center;
+}
+
+section#texto-chamada h1 {
+    font-size: 2em;
+    color: #00006d;
+}
+
+section#texto-chamada p {
+    color: #00006d;
+    text-align: justify;
+}
+
+section#texto-chamada span {
+    color: darkred;
+    font-weight: bold;
+}
+
+section#texto-chamada form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section#texto-chamada label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+section#texto-chamada input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    width: 80%;
+    height: 30px;
+}
+
+section#texto-chamada input[type="submit"] {
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(238, 133, 5);
+    border: none;
+    border-radius: 5px;
+}
+
+section#texto-chamada input[type="submit"]:hover {
+    box-shadow: 0px 0px 4px 1px gray;
+    color: #fff;
+    cursor: pointer;
+    transition: box-shadow 0.4s, color 0.3s;
+}
+
+section#texto-chamada input[type="submit"]:active {
+    box-shadow: none;
+    background-color: rgb(201, 112, 5);
+}
