@@ -8,12 +8,12 @@ body {
 
 @font-face {
     font-family: Roboto-light;
-    src: url("/roboto/AnyConv.com__Roboto-Light.woff");
+    src: url("../roboto/AnyConv.com__Roboto-Light.woff");
 }
 
 @font-face {
     font-family: Roboto-bold;
-    src: url("/roboto/AnyConv.com__Roboto-Bold.woff");
+    src: url("../roboto/AnyConv.com__Roboto-Bold.woff");
 }
 
 a {
@@ -61,7 +61,7 @@ header a#logo {
     width: 100px;
     height: 70px;
     margin-right: 10px;
-    background-image: url("/images/logo_transparente.png");
+    background-image: url("../images/logo_transparente.png");
     background-size: 100px;
     background-repeat: no-repeat;
     text-indent: -20000px;
